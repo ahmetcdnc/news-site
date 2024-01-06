@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css"> <!-- Media burda da kullanılarak reesponsive yapılabilir. -->
+    <title>News Site</title>
+    
+</head>
+<body>
+    <nav id="main-nav" class="nav"> <!-- Navbar -->
+        <div class="container">
+            <img src="img/logo.png" alt="" class="logo"> <!-- Logo kısmı --> 
+            <ul> <!-- Linkler -->
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="social-icons"> <!-- İkonlar -->
+             <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+             <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+             <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+             <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+    </nav>
+
+     <section class="articles">
+        <div class="container">
+            <div class="page-container">
+                <article id="article" class="card">
+                    <img src="img/img-1.webp" alt="">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <div class="meta">
+                        <small>
+                            <i class="fas fa-user"></i> Written by Mauro Icardi 29 Aralık 2023
+                        </small>
+                        <div class="category bg-primary">Sport</div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum tenetur labore eos quaerat perferendis molestias voluptates, quisquam impedit blanditiis, praesentium iste autem quibusdam dolor tempora ducimus obcaecati omnis esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit repellat saepe modi. Officiis omnis voluptatum eius ab molestias dolorum cum fuga neque nostrum magni, adipisci facere id saepe quos deleniti quo at praesentium ipsam asperiores. Eos perferendis modi omnis atque deserunt! Quibusdam doloribus nulla molestias voluptates temporibus fuga reprehenderit vel vitae assumenda nihil, minima illo veniam dolor praesentium voluptatum nostrum ullam reiciendis expedita aut impedit. Eius vel voluptas, dicta explicabo, eveniet quisquam culpa suscipit consequatur odit impedit ipsam cumque! Voluptas sit optio earum quasi tempore sunt, iste laborum iure corrupti vitae, officia facere! Sunt harum, sint a, repellat delectus consequatur alias adipisci aliquam deleniti blanditiis voluptas inventore dicta libero voluptatibus soluta quaerat veniam necessitatibus id quas nobis ut eius sapiente tempore. Nihil impedit facilis aspernatur ipsum aut neque similique, hic et a, qui esse velit amet in architecto error repudiandae natus. Inventore adipisci, saepe nostrum beatae iste aliquid fugiat accusantium dignissimos sed neque aliquam praesentium architecto possimus voluptas animi. Eius doloribus similique natus earum quis unde. Neque quo labore dolor ipsum ea cum itaque reiciendis consequatur consequuntur harum minima praesentium ipsam libero atque, vel iusto tenetur unde sapiente ut? Unde corporis ratione similique dignissimos architecto fugit nisi illo quos quae!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur neque nihil rerum, dolorem modi ipsam cum esse maiores eveniet veritatis quo repudiandae deleniti numquam ut quos debitis. In architecto sed inventore sapiente, nihil alias! Nemo autem, modi molestiae eius, accusamus voluptatibus inventore possimus at voluptate a culpa atque magni debitis id rerum mollitia dignissimos ex in consequatur, obcaecati ipsam laboriosam ipsum laborum? Sapiente ipsum quo explicabo, doloribus vero fugit eaque. Pariatur placeat cupiditate porro facere iure beatae laudantium, eius reprehenderit veritatis suscipit laborum amet nam maiores aut odio vel saepe at qui praesentium possimus facilis enim! Ratione culpa non neque?</p>
+                </article>
+                <aside class="card bg-secondary">
+                    <h2>Join Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eveniet repellat, ipsam fugit unde recusandae.</p>
+                    <a href="#" class="btn btn-dark btn-block">Join Now</a>
+                
+                </aside>
+                <aside id="categories" class="card">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Sport</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Tech</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Health</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+     </section>
+
+    <!-- footer -->
+    <footer id="main-footer" class="py-2">
+       <div class="contaiener footer-container"> <!-- footer-container grid eleman olacak -->
+        <div>
+            <img src="img/logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, error totam quisquam earum autem id molestias non esse soluta corrupti.</p>
+        </div>
+        <div>
+            <h3>Join Us!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, officiis.</p>
+            <form action="">
+                <input type="email" name="" id="" placeholder="Enter email">
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+            </form>
+        </div>
+        <div>
+            <h3>Links</h3>
+            <ul>
+                <li><a href="">Help & Support</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <div>
+                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+         <div>
+            <p>Copyright &copy; 2023, All Rights Reserved</p>
+         </div>
+       </div>
+    </footer>
+
+
+</body>
+</html>
